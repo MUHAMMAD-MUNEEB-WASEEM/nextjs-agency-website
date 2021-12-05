@@ -1,7 +1,47 @@
+import styles from '../styles/Footer.module.css'
+import Image from 'next/image'
+import Link from 'next/link'
+
+
 function Footer() {
     return (
-        <div>
-            Footer
+        <div className={styles.container}>
+            
+            <div className={styles.cardL}>
+                <h1 className={styles.title}>AVOCADO CREATIVES.</h1>
+                <h1 className={styles.linkTitle}>
+                    <a href="/contact" className={styles.link}>
+                        <span className={styles.linkText}>WORK WITH US</span>
+                        <Image 
+                        src='/img/link.png' 
+                        alt=""
+                        width='40px'
+                        height='40px'
+                        />
+                    </a>
+                </h1>
+            </div>
+            
+            <div className={styles.cardS}>
+                
+                <div className={styles.cardItem}>
+                    12 ADAM STREET NY <br/> USA
+                </div>
+                <div className={styles.cardItem}>
+                    CONTACT@AVOCADO.DEV<br/> 213 9926 02376
+                </div>
+
+            </div>
+            
+            <div className={styles.cardS}>
+                <div className={styles.cardItem}>
+                    FOLLOW US: <br /> __FB __IN __BE __TW
+                </div>
+                <div className={styles.cardItem}>
+                    © 2022 AVOCADO INTERACTIVE, <br /> ALL RIGHTS RESERVED
+                </div>        
+            </div>
+        
         </div>
     )
 }

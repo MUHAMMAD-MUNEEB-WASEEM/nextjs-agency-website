@@ -23,4 +23,5 @@ a {
   position: absolute;
   opacity: 0.1;
   z-index: 999;
+  margin: auto
 }

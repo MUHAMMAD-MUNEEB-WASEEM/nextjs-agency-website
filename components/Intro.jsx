@@ -21,8 +21,6 @@ function Intro() {
             <div className={styles.card}>
                 <Image 
                     src='/img/Avocado.png' 
-                    width="100%"
-                    height="100%"
                     layout='fill' 
                     objectFit="cover"
                     alt=""/>

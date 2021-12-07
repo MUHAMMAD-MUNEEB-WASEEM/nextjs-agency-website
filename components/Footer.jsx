@@ -10,7 +10,7 @@ function Footer() {
             <div className={styles.cardL}>
                 <h1 className={styles.title}>AVOCADO CREATIVES.</h1>
                 <h1 className={styles.linkTitle}>
-                    <a href="/contact" className={styles.link}>
+                    <Link href="/contact" className={styles.link}>
                         <span className={styles.linkText}>WORK WITH US</span>
                         <Image 
                         src='/img/link.png' 
@@ -18,7 +18,7 @@ function Footer() {
                         width='40px'
                         height='40px'
                         />
-                    </a>
+                    </Link>
                 </h1>
             </div>
             

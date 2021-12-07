@@ -12,10 +12,8 @@ function Product({product}) {
                     
                         <Image 
                         src={img.url}
-                        width="100%"
-                        height="100%"
                         objectFit="cover"
-                        layout="responsive"
+                        layout="fill"
                         alt=""
                         />
                     </div>

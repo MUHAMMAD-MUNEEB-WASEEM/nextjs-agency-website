@@ -27,7 +27,7 @@ function Services({services}) {
                                     />
                                 ):(
                                     <Image 
-                                    src={`/img/${service.photo}`} 
+                                    src={`${process.env.NEXT_PUBLIC_URL}/img/${service.photo}`} 
                                     width="100%" 
                                     height="100%" 
                                     layout="responsive" 

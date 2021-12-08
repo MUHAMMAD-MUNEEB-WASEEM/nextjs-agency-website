@@ -13,7 +13,7 @@ function Testimonials() {
                 {users.map(user =>(
                     <div key={user.id} className={styles.card}>
                         <Image
-                        src={`/img/${user.logo}`}
+                        src={`${process.env.NEXT_PUBLIC_URL}/img/${user.logo}`}
                         alt=""
                         width="30"
                         height="30"
@@ -21,7 +21,7 @@ function Testimonials() {
                         <p className={styles.comment}>{user.comment}</p>
                         <div className={styles.person}>
                             <Image
-                            src={`/img/${user.avatar}`}
+                            src={`${process.env.NEXT_PUBLIC_URL}/img/${user.avatar}`}
                             width='45'
                             height='45'
                             objectFit="cover"

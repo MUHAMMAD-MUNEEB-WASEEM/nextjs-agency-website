@@ -11,13 +11,15 @@ function Footer() {
                 <h1 className={styles.title}>AVOCADO CREATIVES.</h1>
                 <h1 className={styles.linkTitle}>
                     <Link href="/contact" className={styles.link}>
-                        <span className={styles.linkText}>WORK WITH US</span>
-                        <Image 
-                        src='/img/link.png' 
-                        alt=""
-                        width='40px'
-                        height='40px'
-                        />
+                        <>
+                            <span className={styles.linkText}>WORK WITH US</span>
+                            <Image 
+                            src={process.env.NEXT_PUBLIC_URL + '/img/link.png'} 
+                            alt=""
+                            width='40px'
+                            height='40px'
+                            />
+                        </>    
                     </Link>
                 </h1>
             </div>

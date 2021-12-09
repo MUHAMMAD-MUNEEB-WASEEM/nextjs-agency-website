@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## About App
+
+It is a agency website build using ReactJs, NextJs and deployed on vercel. It is completely responsive and SEO optimized.
+
+## App Link
+
+https://avocado-agency.vercel.app/
+
 ## Getting Started
 
 First, run the development server:
